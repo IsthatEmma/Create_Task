@@ -28,7 +28,7 @@ def generate_quiz():
     user_answer = input("Enter your answer: ")
 
     if user_answer == "8":
-        print("Hooray! Thats correct! :D")
+        print("Amazing!! Correct again! :D")
     else:
         print("No sorry!:( Thats incorrect")
 
