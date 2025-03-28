@@ -1,7 +1,7 @@
 import random
 import time
 
-score = 0
+points = 0
 
 quiz_questions = []
 print("Hello! Welcome to the quiz! Let's do this!!")
@@ -34,5 +34,8 @@ def generate_quiz():
 
     return quiz_question 
 
+
 quiz_questions = generate_quiz()
+
+print ("You got " + str(points) + "/2")
 
