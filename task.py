@@ -1,7 +1,6 @@
 import random
 import time
 
-points = 0
 
 quiz_questions = []
 print("Hello! Welcome to the quiz! Let's do this!!")
@@ -37,5 +36,21 @@ def generate_quiz():
 
 quiz_questions = generate_quiz()
 
-print ("You got " + str(points) + "/2")
+def generate_quiz():
+    quiz_question = ("Last question! What is 7 x 2")
+    print(quiz_question)
+    user_answer = input("Enter your answer: ")
+
+    if user_answer == "14":
+        print("Brilliant!:D")
+    else:
+        print("Incorrect, So Sorry!:(")
+
+    return quiz_question 
+
+
+quiz_questions = generate_quiz()
+
+print("Thanks for playing!")
+
 
