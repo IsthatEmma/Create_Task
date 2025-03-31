@@ -1,6 +1,7 @@
 import random
 import time
 
+score = 0 
 
 quiz_questions = []
 print("Hello! Welcome to the quiz! Let's do this!!")
@@ -16,7 +17,6 @@ def generate_quiz():
         print("No sorry!:( Thats incorrect")
 
     return quiz_question 
-
 
 quiz_questions = generate_quiz()
 
@@ -48,9 +48,6 @@ def generate_quiz():
 
     return quiz_question 
 
-
 quiz_questions = generate_quiz()
 
 print("Thanks for playing!")
-
-
