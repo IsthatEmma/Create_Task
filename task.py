@@ -35,7 +35,7 @@ def generate_quiz():
 quiz_questions = generate_quiz()
 
 def generate_quiz():
-    quiz_question = ("Second question! What is 7 x 2?")
+    quiz_question = ("Third question! What is 7 x 2?")
     print(quiz_question)
     user_answer = input("Enter your answer: ")
 
@@ -43,6 +43,20 @@ def generate_quiz():
         print("Fantastic!! :D")
     else:
         print("No sorry!:(")
+
+    return quiz_question 
+quiz_questions = generate_quiz()
+
+
+def generate_quiz():
+    quiz_question = ("Last Question! What color is the sky")
+    print(quiz_question)
+    user_answer = input("Enter your answer: ")
+
+    if user_answer == "blue":
+        print("Double Amazing! You're on a winning streak!")
+    else:
+        print("Incorrect! :(")
 
     return quiz_question 
 quiz_questions = generate_quiz()
