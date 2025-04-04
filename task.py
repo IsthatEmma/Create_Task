@@ -61,4 +61,4 @@ def generate_quiz():
     return quiz_question 
 quiz_questions = generate_quiz()
 
-print("Thanks for playing my mini quiz game!")
+print("Thanks for playing my mini quiz game! For all your hard work you get a medal! 🥇")
