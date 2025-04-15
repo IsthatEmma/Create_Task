@@ -53,7 +53,7 @@ def third_question():
 quiz_questions = third_question()
 
 
-def last_question():
+def fourth_question():
     question_four = ("Last Question! What color is the sky")
     print(question_four)
     user_answer = input("Enter your answer: ")
@@ -66,7 +66,6 @@ def last_question():
         print("Incorrect! :(")
 
     return question_four
-quiz_questions = last_question()
+quiz_questions = fourth_question()
 
-print("Thanks for playing my mini quiz game! For all your hard work you get a medal! 🥇")
-
+print("Thanks for playing my game")
